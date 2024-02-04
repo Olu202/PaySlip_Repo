@@ -48,7 +48,7 @@ def generate_payment_slips(workers):
     return payment_slips
 
 if __name__ == "__main__":
-    num_workers = 400
+    num_workers = 503
     workers = generate_workers(num_workers)
     payment_slips = generate_payment_slips(workers)
     for slip in payment_slips:
